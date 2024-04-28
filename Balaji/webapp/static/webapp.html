@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('image.png');
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            color: #fff; 
+        }
+        header {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #999;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 25%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Software Company</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:8000/static/home.html">Home</a>
+        <a href="http://127.0.0.1:8000/static/product.html">Products</a>
+        <a href="http://127.0.0.1:8000/static/people.html">About Us</a>
+        <a href="http://127.0.0.1:8000/static/about.html">Contact</a>
+    </nav>
+    <section id="home">
+        <center>
+            <h2>Welcome to Our Software Company!</h2>
+        </center>
+        <center>
+            <p>We specialize in developing cutting-edge software solutions for businesses.</p>
+        </center>
+    </section>
+    <div class="container">
+        <h2 align="center">Login</h2>
+        <center>
+            <form action="login.php" method="POST">
+                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="submit" value="Login">
+            </form>
+        </center>
+    </div>
+    <footer>
+        <p>&copy; PRADEEP V.(212223240119) All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
